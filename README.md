@@ -1,7 +1,7 @@
 # Lista Sequencial 
 
 ## 📄 Descrição
-Implementação do tipo abstrado de dado lista sequencial em c++. A implementação já acompanha um caso de teste no arquivo main.cpp, que demonstra o uso da lista sequencial.
+Implementação do tipo abstrado de dado lista sequencial em c++. A implementação já acompanha um caso de teste no arquivo main, que demonstra o uso da lista sequencial.
 
 ---
 
