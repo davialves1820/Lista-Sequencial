@@ -23,7 +23,7 @@ make
 ### Executando o Programa
 
 ```bash
-./bin/programa
+./build/programa
 ```
 
 ---
