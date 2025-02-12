@@ -5,8 +5,8 @@ int main(void) {
     lista_sequencial list;
 
     // Verifica se a lista está vazia ou cheia
-    cout << "Lista vazia? " << (list.vazio() ? "Sim" : "Nao") << endl; 
-    cout << "Lista cheia? " << (list.cheio() ? "Sim" : "Nao") << endl;
+    cout << "Lista vazia? " << (list.vazio() ? "Sim." : "Nao.") << endl; 
+    cout << "Lista cheia? " << (list.cheio() ? "Sim." : "Nao.") << endl;
     
     // Adiciona itens a lista
     list.adicionar(1, 1);
@@ -21,8 +21,8 @@ int main(void) {
     cout << "Tamanho da lista: " << list.tamanho() << endl;
 
     // Verifica se a lista está vazia ou cheia
-    cout << "Lista vazia? " << (list.vazio() ? "Sim" : "Nao") << endl; 
-    cout << "Lista cheia? " << (list.cheio() ? "Sim" : "Nao") << endl;    
+    cout << "Lista vazia? " << (list.vazio() ? "Sim." : "Nao.") << endl; 
+    cout << "Lista cheia? " << (list.cheio() ? "Sim." : "Nao.") << endl;    
     
     // Remove o primero elemento da lista e exibe a lista após remoção e seu tamanho atual
     list.remover(1);

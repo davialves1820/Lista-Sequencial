@@ -1,7 +1,9 @@
 #include "lista_sequencial.h"
 
     // Inicializar o vetor
-    lista_sequencial::lista_sequencial() : tamanho_atual(0) {}
+    lista_sequencial::lista_sequencial() : tamanho_atual(0) {
+        cout << "Lista criada." << endl;
+    }
 
     // Verificar se está vazio
     bool lista_sequencial::vazio() {
@@ -47,6 +49,7 @@
             elementos[i] = elementos[i - 1];
         }
         elementos[pos - 1] = v;
+        cout << "Valor " << v << " adicionado." << endl;
         tamanho_atual++;
     }
 
