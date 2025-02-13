@@ -49,7 +49,7 @@
             elementos[i] = elementos[i - 1];
         }
         elementos[pos - 1] = v;
-        cout << "Valor " << v << " adicionado." << endl;
+        cout << "Valor " << v << " adicionado na posicao " << pos << "." << endl;
         tamanho_atual++;
     }
 

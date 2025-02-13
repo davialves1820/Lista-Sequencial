@@ -10,10 +10,14 @@ int main(void) {
     
     // Adiciona itens a lista
     list.adicionar(1, 1);
+    cout << "Lista:" << endl;
+    list.exibir();
+
     list.adicionar(2, 1);
+    cout << "Lista:" << endl;
+    list.exibir();
+
     list.adicionar(3, 1); 
-    
-    // Exibe a lista
     cout << "Lista:" << endl;
     list.exibir();
 
